@@ -107,11 +107,11 @@ u_db.connect()
 u_db.create_tables([Warns, Language, Join, Mute, Ticket, TicketRole, Logs])
 
 cogs_list = [
-    'Au_econ',
-    'Au_mod',
-    'Au_util',
-    'Au_info',
-    'Au_fun'
+    'As_econ',
+    'As_mod',
+    'As_util',
+    'As_info',
+    'As_fun'
 ]
 for cog in cogs_list:
     bot.load_extension(f'{cog}')
